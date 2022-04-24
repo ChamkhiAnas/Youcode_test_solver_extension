@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "ZOOBA";
+    src: url('fonts/ZOOBA.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url('fonts/Poppins-SemiBold.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url('fonts/Poppins-Light.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: "Moderat-Bold";
+    src: url('fonts/Moderat-Bold.ttf') format('truetype');
+  }
+
+  
+@font-face {
+    font-family: "Inter-Light";
+    src: url('fonts/Inter-Light.ttf') format('truetype');
+  }
+
+
+
+.popup-wrapper{
+    width: 41rem;
+    height: 28rem;
+    background-color: #EF3026;    
+    color: white;
+}
+
+
+.popup-wrapper h1{
+  
+    color: white;
+    font-family: "ZOOBA";
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.popup-footer{
+    width: 41rem;
+    height: 1.4rem;
+    background-color: #FF7979;    
+    color: white;
+}
+
+.logo-vr img{
+
+    width: 14rem;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#btn{
+    display: block;
+    margin: 0 auto;
+    border: 1.4px solid #FFFFFF;
+    border-radius: 8px;
+    width: 20rem;
+    height: 3.3rem;
+    margin-top: 2rem;
+    cursor:pointer;/* stylelint-disable-next-line rule */
+}
+
+.loading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.2rem;
+}
+.loading-rect{
+    width: 2.7rem;
+    height: 1.3rem;
+    background: #FFFFFF;
+}
+
+
+#para-annonce{
+    font-family: "Inter-Light";
+    font-size: 1.2rem;
+    color:white;
+}
