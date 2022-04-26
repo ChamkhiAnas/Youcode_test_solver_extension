@@ -1,3 +1,7 @@
+
+import Answers from "/Answers.json" assert { type: "json" };
+
+
 document.getElementById("btn").addEventListener("click", animateTheLoading);
 let loadingRect=document.getElementsByClassName("loading-rect")
 
@@ -59,8 +63,15 @@ function validateUrl(){
     if(currentUrl=="https://youcode.ma/quiz"){
     console.log("Valid")
     let question_id=JSON.parse(question)
-    // console.log("question_id",question_id.question.id)
-    console.log("question_id",question_id)
+    let q_Id=parseInt(question_id.question.id)
+    console.log("question_id",q_Id)
+
+    if (q_Id<=40 && q_Id>0 ){
+        getAnswer(q_Id)
+    }
+    else {
+        answerNotfound();
+    }
 
     if(!question_id.question){
         answerNotfound();
@@ -87,5 +98,10 @@ function answerNotfound(){
     }
     para.innerHTML = "&#128546 Answer not found , try again .";
 
+}
+
+
+function getAnswer(id){
+    console.log("Answers",Answers)
 }
 
