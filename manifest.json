@@ -1,6 +1,6 @@
 {
     "name": "Youcode Test Solver ",
-    "description":"a google chrome extension to solve youcode math test",
+    "description":"a google chrome extension to solve youcode quizz test",
     "version": "1.0",
     "manifest_version": 3,
     "icons": { 

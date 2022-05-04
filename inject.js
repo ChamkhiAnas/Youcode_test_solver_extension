@@ -31,10 +31,26 @@ var testObj={
 
   chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
-      console.log("Inject js 2")
+      console.log("Inject js 2",request)
       if( request.message === "isItQuizzPage" ) {
         sendResponse({currentUrl: testObj,questionObj:qsObj});
       }
+     
     }
   );
  
+
+
+//   function getInputsByValue(value){
+//     console.log("Hahiya value wast inject",value)
+//     var allInputs = document.getElementsByClassName("next");
+//     console.log("AllInputs",allInputs)
+//     var results = [];
+//     console.log("AllInputs",allInputs)
+//     console.log("value",value)
+//     for(var x=0;x<allInputs.length;x++)
+//         if(allInputs[x].value == value)
+//             results.push(allInputs[x]);
+//     console.log("Results",results)
+//     return results;
+// }

@@ -66,7 +66,7 @@ function validateUrl(){
     let q_Id=parseInt(question_id.question.id)
     console.log("question_id",q_Id)
 
-    if (q_Id<=40 && q_Id>0 ){
+    if (q_Id<=280 && q_Id>0 ){
         getAnswer(q_Id)
     }
     else {
@@ -101,7 +101,25 @@ function answerNotfound(){
 }
 
 
-function getAnswer(id){
-    console.log("Answers",Answers)
+async function getAnswer(id){
+    while(loadingRect.length > 0){
+    loadingRect[0].parentNode.removeChild(loadingRect[0]);
+    }
+
+    let Answ= Answers.filter(answer => (answer.id==id));
+    if(Answ!=""){
+    para.innerHTML = " Answer :"+JSON.stringify(Answ[0].answer)
+    console.log("Answer found")
+    }
+    else if(Answ=="") {
+    para.innerHTML = "&#128546 Answer not found &#128546"
+    console.log("Answer not found")
+    }
+
+    // chrome.tabs.query({currentWindow: true, active: true}, await function (tabs){
+    // var activeTabdoom = tabs[0];
+    // chrome.tabs.sendMessage(activeTabdoom.id, {"message": "MakeThedom","answer":Answers[id-1].answer})    
+    // }) 
 }
+
 
