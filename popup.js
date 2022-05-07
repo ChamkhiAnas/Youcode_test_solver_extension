@@ -116,10 +116,6 @@ async function getAnswer(id){
     console.log("Answer not found")
     }
 
-    // chrome.tabs.query({currentWindow: true, active: true}, await function (tabs){
-    // var activeTabdoom = tabs[0];
-    // chrome.tabs.sendMessage(activeTabdoom.id, {"message": "MakeThedom","answer":Answers[id-1].answer})    
-    // }) 
 }
 
 

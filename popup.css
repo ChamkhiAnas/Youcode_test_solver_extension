@@ -10,7 +10,12 @@
 
 @font-face {
     font-family: "Poppins-Light";
-    src: url('fonts/Poppins-Light.ttf') format('truetype');
+    src: url('fonts/Poppins-Light.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url('fonts/Poppins-Medium.otf') format('opentype');
   }
 
 @font-face {
@@ -23,6 +28,15 @@
     font-family: "Inter-Light";
     src: url('fonts/Inter-Light.ttf') format('truetype');
   }
+
+  a,* {
+      outline : none;
+}
+a:focus {
+    outline: 0; 
+   }
+
+a:active { color:none }
 
 
 
@@ -44,10 +58,47 @@
 
 .popup-footer{
     width: 41rem;
-    height: 1.4rem;
+    height: 3rem;
     background-color: #FF7979;    
     color: white;
 }
+
+.footer-infos{
+    display: flex;
+}
+
+.drink-support{
+    margin-left: auto;
+}
+
+.drink-support a{
+    font-size: 27px;
+    cursor: pointer;
+}
+.drink-support h6{
+    padding-top: 0px !important;
+}
+
+.footer-infos h6{
+    font-family: "Poppins-Light";
+    font-size: 13px;
+    margin: 0px;
+    letter-spacing: 3px;
+    margin-left: 15px;
+    padding-top: 18px;
+}
+
+.footer-infos span{
+    font-family: "Poppins-Medium";
+    font-size: 14px;
+}
+
+.footer-infos img {
+    width: 24px;
+    padding-top: 13px;
+    margin-left: 10px;
+}
+
 
 .logo-vr img{
 

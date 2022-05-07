@@ -4,9 +4,9 @@
     "version": "1.0",
     "manifest_version": 3,
     "icons": { 
-    "16": "images/103a8de923b0bb46b9eb93290d26e147-32bits-16.png",
-    "48": "images/103a8de923b0bb46b9eb93290d26e147-32bits-48.png",
-    "128": "images/103a8de923b0bb46b9eb93290d26e147-32bits-48.png" },
+    "16": "images/c63efff620b80095e0ee59e2cee6b1e0-32bits-16.png",
+    "48": "images/c63efff620b80095e0ee59e2cee6b1e0-32bits-48.png",
+    "128": "images/bd39b68377e8d7852cc48ee1d240eec3-32bits-128.png" },
     "background": {
     "service_worker": "background.js"
 
@@ -24,7 +24,7 @@
 
     }],
     "action":{
-    "default_icon":"images/103a8de923b0bb46b9eb93290d26e147-32bits-48.png",
+    "default_icon":"images/c63efff620b80095e0ee59e2cee6b1e0-32bits-48.png",
     "default_popup":"popup.html",
     "default_title":"Let's succeed together"
     },
