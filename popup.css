@@ -59,7 +59,7 @@ a:active { color:none }
 .popup-footer{
     width: 41rem;
     height: 3rem;
-    background-color: #FF7979;    
+    background-color: black;    
     color: white;
 }
 
@@ -69,15 +69,19 @@ a:active { color:none }
 
 .drink-support{
     margin-left: auto;
+    display: flex;
+    margin-right: 8px;
+}
+
+.drink-support h6{
+    padding-top : 14px !important;
 }
 
 .drink-support a{
     font-size: 27px;
     cursor: pointer;
 }
-.drink-support h6{
-    padding-top: 0px !important;
-}
+
 
 .footer-infos h6{
     font-family: "Poppins-Light";
@@ -136,4 +140,11 @@ a:active { color:none }
     font-family: "Inter-Light";
     font-size: 1.2rem;
     color:white;
+}
+
+#wine{
+    padding-top: 0px !important;
+    margin-top: 5px;
+    width: 19px !important;
+    margin-right: 4px;
 }

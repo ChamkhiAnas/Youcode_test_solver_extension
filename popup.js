@@ -53,18 +53,18 @@ function communicateWithInject(){
     currentUrl=response.currentUrl.Url   
     question=response.questionObj
     validateUrl()
-    console.log("Response",response)
+    // console.log("Response",response)
     })    
     })    
 }
 
 function validateUrl(){
-    console.log("currentUrl",currentUrl)
+    // console.log("currentUrl",currentUrl)
     if(currentUrl=="https://youcode.ma/quiz"){
-    console.log("Valid")
+    // console.log("Valid")
     let question_id=JSON.parse(question)
     let q_Id=parseInt(question_id.question.id)
-    console.log("question_id",q_Id)
+    // console.log("question_id",q_Id)
 
     if (q_Id<=280 && q_Id>0 ){
         getAnswer(q_Id)
@@ -78,7 +78,7 @@ function validateUrl(){
     }
     }
     else {
-    console.log("Unvalid",parentofLoading)
+    // console.log("Unvalid",parentofLoading)
     removeAnimation()
     responseStatus=false;
     }
@@ -109,11 +109,11 @@ async function getAnswer(id){
     let Answ= Answers.filter(answer => (answer.id==id));
     if(Answ!=""){
     para.innerHTML = " Answer :"+JSON.stringify(Answ[0].answer)
-    console.log("Answer found")
+    // console.log("Answer found")
     }
     else if(Answ=="") {
     para.innerHTML = "&#128546 Answer not found &#128546"
-    console.log("Answer not found")
+    // console.log("Answer not found")
     }
 
 }
