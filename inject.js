@@ -41,20 +41,69 @@ var testObj={
  
 
 
-//   function getInputsByValue(value){
-//     console.log("Hahiya value wast inject",value)
-//     var allInputs = document.getElementsByClassName("next");
-//     console.log("AllInputs",allInputs)
-//     var results = [];
-//     console.log("AllInputs",allInputs)
-//     console.log("value",value)
-//     for(var x=0;x<allInputs.length;x++)
-//         if(allInputs[x].value == value)
-//             results.push(allInputs[x]);
-//     console.log("Results",results)
-//     return results;
-// }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 // Console message for fun : 
 
 console.log('%c ☭☭ Q U E  VIVA EL COMMUNISMO ☭☭!', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113)');
+
+
+console.warn('☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭');
+
+console.log('Adelante Comandante Chavez :');
+
+console.log('https://www.youtube.com/watch?v=-VQ2tVNN0lo')
+
+console.warn(' ☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭☭');
+

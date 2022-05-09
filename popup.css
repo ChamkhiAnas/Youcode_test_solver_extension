@@ -75,11 +75,17 @@ a:active { color:none }
 
 .drink-support h6{
     padding-top : 14px !important;
+    color: white;
 }
 
 .drink-support a{
     font-size: 27px;
     cursor: pointer;
+    color:black
+}
+
+.drink-support a:hover{
+   color:white
 }
 
 
